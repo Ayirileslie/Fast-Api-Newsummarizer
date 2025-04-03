@@ -47,10 +47,3 @@ def summarize_text(text):
 
         return(response.text)
 
-
-result=process_url(url)
-result2=clean_html_css_js(result)
-
-result3=summarize_text(result2)
-
-print(result3)
