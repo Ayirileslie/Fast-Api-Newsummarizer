@@ -9,6 +9,7 @@ import re
 
 load_dotenv()
 
+
 # Get the API key from environment variables
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 
