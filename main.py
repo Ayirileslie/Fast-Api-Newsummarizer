@@ -10,7 +10,7 @@ app = FastAPI()
 # CORS settings (update for production)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://nextjs-app-pi-lime.vercel.app/"],  # Adjust this to your frontend URL
+    allow_origins=["*"],  # Adjust this to your frontend URL
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
